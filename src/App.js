@@ -4,6 +4,7 @@ import Pagination from './Components/Table/Pagination';
 import ActiveAdmission from './Components/ActiveAdmission/ActiveAdmission';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Table from './Components/Table/Table';
+import Policy from './Components/Policy/Policy';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="">
       <Sidebar></Sidebar>
       <Dashboard />
+      <Policy />
       <ActiveAdmission />
       <Pagination />
       <Table />
