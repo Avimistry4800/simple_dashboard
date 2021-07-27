@@ -27,6 +27,7 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       orange:colors.orange,
+      cyan: colors.cyan,
     },
     spacing: {
       px: '1px',
