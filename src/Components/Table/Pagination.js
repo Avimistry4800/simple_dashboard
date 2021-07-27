@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pagination = () => {
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between bg-white">
 
             <div className="">
                 <h1>Active Admission</h1>

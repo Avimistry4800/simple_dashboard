@@ -13,8 +13,8 @@ const Policy = () => {
     };
 
     return (
-        <section className="flex flex-wrap ">
-            <div className="w-2/3">
+        <section className="flex flex-wrap bg-white rounded-lg grid grid-cols-6 ">
+            <div className="col-span-4 rounded-lg md:col-span-6 lg:col-span-4">
                 <div>
                     <h3 className="text-bold text-2xl">Policies</h3>
                 </div>
@@ -258,9 +258,9 @@ const Policy = () => {
                 </div>
             </div>
 
-            <div className="w-1/3 items-center content-center">
+            <div className="col-span-2 rounded-lg md:col-span-6 lg:col-span-2 items-center justify-center">
                 <h1>Active Admission</h1>
-                <div className="w-ful"> 
+                <div className="w-ful py-5 "> 
                 <ActiveAdmission />
                 </div>
             </div>

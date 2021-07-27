@@ -2,6 +2,7 @@ import { faCircle } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
+import HealthChallenges from "../HealthChallenges/HealthChallenges";
 
 const CommonDiseases = () => {
     const [options, setOptions] = useState({
@@ -39,8 +40,9 @@ const CommonDiseases = () => {
 
     const [labels, setLabels] = useState(["Heart Attacks", "Covid", "Typhoid"]);
     return (
-        <div className="rounded bg-white">
-            <div className=''>
+        <div className="rounded-lg bg-white   grid grid-cols-2  ">
+             <div>
+             <div className=''>
                 <div id="chart" >
                     <ReactApexChart
                         options={options}
@@ -50,7 +52,7 @@ const CommonDiseases = () => {
                     />
                 </div>
             </div>
-            <div>
+            <div className="pl-5">
                 <p>
                     <span>
                         {" "}
@@ -81,6 +83,10 @@ const CommonDiseases = () => {
                     Typhoid{" "}
                 </p>
             </div>
+             </div>
+           <div className="">
+               <HealthChallenges />
+           </div>
         </div>
     );
 };

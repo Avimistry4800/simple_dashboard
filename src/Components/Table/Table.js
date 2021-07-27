@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import Pagination from './Pagination'
 
 const Table = () => {
     const [show, setShow] = useState(null)
 
     return (
         <>
-            <div className="w-full sm:px-6">
-
-                <div className="bg-white shadow px-4 md:px-10 pt-4 md:pt-7 pb-5 overflow-y-auto">
+            <div className="w-full m-0">
+                <Pagination />
+                <div className="bg-white shadow px-4 md:px-10 pt-4 mx-0 md:pt-7 pb-5 overflow-y-auto">
                     <table className="w-full whitespace-nowrap">
                         <thead>
                             <tr className="h-16 w-full text-sm leading-none text-gray-800">

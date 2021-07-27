@@ -2,14 +2,14 @@ import React from 'react';
 
 const HealthChallenges = () => {
     return (
-        <>
-        <div>
+        <div className="bg-white w-full rounded-lg">
+        <div className = "pt-10 pb-5">
                 <h1 className="text-left text-3xl font-medium text-gray-800">Active Health Challenges</h1>
             </div>
 
             
           
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between py-5">
                     <div className="text-left w-3/4 px-2">
                         <h1 className="text-md mx-0">#FitestWomen</h1>
                         <p className="text-md mx-0">150 Participant</p>
@@ -39,7 +39,7 @@ const HealthChallenges = () => {
                     
 
                 </div>
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between py-5">
                     <div className="text-left w-3/4 px-2">
                         <h1 className="text-md mx-0">#Fitn 40</h1>
                         <p className="text-md mx-0">100 Participant</p>
@@ -70,7 +70,7 @@ const HealthChallenges = () => {
 
                 </div>
                 
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between py-5">
                     <div className="text-left w-3/4 px-2">
                         <h1 className="text-md mx-0">#10KStepsDaily</h1>
                         <p className="text-md mx-0">80 Participant</p>
@@ -105,7 +105,7 @@ const HealthChallenges = () => {
    
 
 
-        </>
+        </div>
     );
 };
 

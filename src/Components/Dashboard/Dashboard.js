@@ -6,12 +6,10 @@ import React from "react"
 const Dashboard = () => {
     return (
         <div>
-            <div className=" px-6 mx-auto grid">
-                <h2 className="my-6 text-2xl font-semibold text-gray-700">
-                    Dashboard
-                </h2>
+            <div className=" px-6  rounded-lg grid">
+                
                 <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
-                    <div className="flex items-center p-4 bg-white rounded-lg shadow-xs shadow-md">
+                    <div className="flex items-center px-2 py-0  bg-white rounded-lg shadow-xs shadow-md">
 
                         <div>
                             <p className="mb-2 text-sm font-medium text-gray-600">
@@ -25,7 +23,7 @@ const Dashboard = () => {
                             <FontAwesomeIcon className="text-3xl" icon={faUsers}  />
                         </div>
                     </div>
-                    <div className="flex items-center p-4 bg-white rounded-lg shadow-xs shadow-md">
+                    <div className="flex items-center px-2 py-0  bg-white rounded-lg shadow-xs shadow-md">
 
                         <div>
                             <p className="mb-2 text-sm font-medium text-gray-600">
@@ -39,7 +37,7 @@ const Dashboard = () => {
                             <FontAwesomeIcon className="text-3xl"icon={faFileAlt}  />
                         </div>
                     </div>
-                    <div className="flex items-center p-4 bg-white rounded-lg shadow-xs shadow-md">
+                    <div className="flex items-center px-2 py-0  bg-white rounded-lg shadow-xs shadow-md">
 
                         <div>
                             <p className="mb-2 text-sm font-medium text-gray-600">
@@ -53,7 +51,7 @@ const Dashboard = () => {
                             <FontAwesomeIcon className="text-3xl" icon={faCalendarCheck}  />
                         </div>
                     </div>
-                    <div className="flex items-center p-4 bg-white rounded-lg shadow-xs shadow-md">
+                    <div className="flex items-center px-2 py-0  bg-white rounded-lg shadow-xs shadow-md">
 
                         <div>
                             <p className="mb-2 text-sm font-medium text-gray-600">
